@@ -32,6 +32,9 @@
             {
                 Console.WriteLine($"Cibo preferito intermedio 1: {cibiPreferiti[ciboIntermedio - 1]}");
                 Console.WriteLine($"Cibo preferito intermedio 2: {cibiPreferiti[ciboIntermedio]}");
+            }else
+            {
+                Console.WriteLine($"Cibo preferito intermedio: {cibiPreferiti[ciboIntermedio]}");
             }
         }
     }
